@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: muhammmedessa/udagram-frontend:local
+        image: muhammmedessa/udagram-frontend:v17
         imagePullPolicy: Always
         
         ports:
