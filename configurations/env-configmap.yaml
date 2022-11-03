@@ -5,10 +5,10 @@ kind: ConfigMap
 metadata:
   name: env-config
 data:
-  POSTGRES_HOST: postgres..us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: postgres.c1bscvkxulbf.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
   AWS_BUCKET: essa-bucket
   AWS_REGION: us-east-1
   AWS_PROFILE: default
   JWT_SECRET: testing
-  URL: http://localhost:8100
+  URL: http://aad274bef9918444ba320ce0e6959e62-1732463348.us-east-1.elb.amazonaws.com
